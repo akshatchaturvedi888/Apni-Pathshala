@@ -1,0 +1,93 @@
+navigation-panel{
+    display: block;text-decoration: none;
+}
+body{
+    background-color: bisque;
+}
+
+/* nav bar */
+.navigation{
+    width: 100%;
+    background-color:#fff;
+    font-size: 25px;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* heading paragraph */
+h1{
+    color:grey;
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 25px;;
+    text-align: center;
+}
+ul .navigation{
+    text-decoration: none;
+}
+
+/* contact */
+#contact{
+    position: absolute;
+   
+    left: 45%; 
+    margin-top: -10px; 
+    margin-left: -100px; 
+
+}
+
+li{
+    
+    align-content: center;
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    color:black;
+}
+li:hover{
+    color: red;
+}
+
+img{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+ 
+    .dropbtn {
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
